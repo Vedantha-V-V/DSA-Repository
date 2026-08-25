@@ -113,6 +113,24 @@ struct Node*delete_node(struct Node*root,int val){
     return root;
 }
 
+int calc_parent(struct Node*root){
+    if(root==NULL){
+        return -1;
+    }
+    if(root->left==NULL&&root->right==NULL){
+        return 0;
+    }
+    else if(root->right==NULL){
+        return 1+calc_parent(root->left);
+    }
+    else if(root->left==NULL){
+        return 1+calc_parent(root->right);
+    }
+    else{
+        return 1+calc_parent(root->left)+calc_parent(root->right);
+    }
+}
+
 void main(){
     int choice,data;
     do{
