@@ -72,6 +72,47 @@ void Kthelement(struct Node*root,int val){
     }
 }
 
+struct Node*findMin(struct Node*root){
+    while(root->left!=NULL){
+        root=root->left;
+    }
+    return root;
+}
+
+struct Node*delete_node(struct Node*root,int val){
+    if(root==NULL){
+        return root;
+    }
+    else if(root->data>val){
+        root->left=delete_node(root->left,val);
+    }
+    else if(root->data<val){
+        root->right=delete_node(root->right,val);
+    }
+    else{
+        if(root->left==NULL&&root->right==NULL){
+            free(root);
+            return NULL;
+        }
+        else if(root->left=NULL){
+            struct Node*temp=root;
+            root=root->right;
+            free(temp);
+        }
+        else if(root->right==NULL){
+            struct Node*temp=root;
+            root=root->left;
+            free(temp);
+        }
+        else{
+            struct Node*temp=findMin(root->right);
+            root->data=temp->data;
+            root->right=delete_node(root->right,temp->data);
+        }
+    }
+    return root;
+}
+
 void main(){
     int choice,data;
     do{

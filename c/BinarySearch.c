@@ -6,8 +6,7 @@ void main()
     int arr[5];
     int i,low,mid,high,key,flag=0;
     printf("Read the array elements:\n");
-    for(i=0;i<5;i++)
-    {
+    for(i=0;i<5;i++){
         scanf("%d",&arr[i]);
     }
     low=0;
@@ -18,16 +17,13 @@ void main()
 
     while(low<=high)
     {
-        if(key==arr[mid])
-        {
+        if(key==arr[mid]){
             flag=1;
         }
-        if(key>arr[mid])
-        {
+        if(key>arr[mid]){
             low=mid+1;
         }
-        if(key<arr[mid])
-        {
+        if(key<arr[mid]){
             high=mid-1;
         }
     }
