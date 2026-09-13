@@ -1,5 +1,10 @@
 # DSA-Repository
 
-DSA related codefiles in C and C++ and Python.
+Repository to refer solved DSA Questions and Patterns in C++ and Python.
 
-Author: Vedantha V V
+## Leetcode Questions
+
+Python
+---
+- (688) Knight Probability
+- (835) Image Overlap
