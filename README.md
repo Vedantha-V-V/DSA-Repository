@@ -8,3 +8,5 @@ Python
 ---
 - (688) Knight Probability
 - (835) Image Overlap
+- (347) Top K Frequent Elements
+- (45) Jump Game ll
