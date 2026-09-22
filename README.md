@@ -1,12 +1,14 @@
 # DSA-Repository
 
-Repository to refer solved DSA Questions and Patterns in C++ and Python.
+Repository to refer solved DSA Questions and Patterns in Python.
 
 ## Leetcode Questions
 
-Python
+Format (Leetcode Question No.) Question Name (Company)
+
 ---
-- (688) Knight Probability
+- (688) Knight Probability (Emerson)
 - (835) Image Overlap
 - (347) Top K Frequent Elements
-- (45) Jump Game II
+- (45) Jump Game II (HP)
+- (18) 4Sum
