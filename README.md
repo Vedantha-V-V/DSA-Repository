@@ -12,3 +12,4 @@ Format (Leetcode Question No.) Question Name (Company)
 - (347) Top K Frequent Elements
 - (45) Jump Game II (HP)
 - (18) 4Sum
+- (1190) Reverse String Substring Between Each Parentheses
