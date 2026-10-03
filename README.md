@@ -15,3 +15,5 @@ Format (Leetcode Question No.) Question Name (Company)
 - (1190) Reverse String Substring Between Each Parentheses
 - (283) Move Zeroes
 - (881) Boats to Save People
+- (22) Generate Parenthesis
+- (32) Longest Valid Parentheses
