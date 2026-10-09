@@ -17,3 +17,4 @@ Format (Leetcode Question No.) Question Name (Company)
 - (881) Boats to Save People
 - (22) Generate Parenthesis
 - (32) Longest Valid Parentheses
+- (1541) Minimum Insertions to Balance a Parentheses String
