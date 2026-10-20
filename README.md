@@ -20,3 +20,4 @@ Format (Leetcode Question No.) Question Name (Company)
 - (1541) Minimum Insertions to Balance a Parentheses String
 - (2333) Minimum Sum of Squared Difference
 - (3551) Minimum Swaps to Sort By Digit Sum
+- (3886) Sum of Sortable Integers
