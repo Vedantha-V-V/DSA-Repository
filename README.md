@@ -21,3 +21,4 @@ Format (Leetcode Question No.) Question Name (Company)
 - (2333) Minimum Sum of Squared Difference
 - (3551) Minimum Swaps to Sort By Digit Sum
 - (3886) Sum of Sortable Integers
+- (3863) Minimum Operations to Sort a String
